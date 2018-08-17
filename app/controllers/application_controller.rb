@@ -30,8 +30,6 @@ class ApplicationController < Sinatra::Base
           decision << "a youTube channel meant to instruct on self defense"
           decision << "https://www.youtube.com/channel/UCj4JOZ3jvgkHPYew0ksfDZw"
         end
-      else commitment == "long"
-        if city == Los Angeles
       elsif price == "med"
         if commitment == "short"
           if city == Chicago
